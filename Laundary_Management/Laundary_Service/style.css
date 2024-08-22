@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+/* background: url("C:\xampp\htdocs\Login\laundary_background.jpg") no-repeat; */
+background-size: cover;
+
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-box{
+  
+  margin: auto;
+  width: 380px;
+  height: 320px;
+  position: relative;
+  background-color:#ffffff7d ;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.form1-box{
+padding: 100px;
+margin: auto;
+width: 380px;
+height: 580px;
+position: relative;
+background-color:#ffffff7d ;
+border-radius: 25px;
+padding: 5px;
+}
+
+
+
+.regForm{
+background-color: blue;
+}
+
+
+.shirt-input {
+  width: 60px; /* Adjust the width as needed */
+  background-color: lightblue; /* Change the background color to light blue */
+}
+
+.navbarr {
+
+  width: 100%;
+  background-color: rgb(147, 119, 241);
+  overflow: auto;
+  border-radius: 0%;
+  /* position: fixed; */
+}
+
+/* Navigation links */
+.navbarr a {
+  float: left;
+  padding: 9px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbarr a:hover {
+  background-color: rgb(228, 152, 238);
+}
